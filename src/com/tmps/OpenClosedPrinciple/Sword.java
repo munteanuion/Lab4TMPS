@@ -1,13 +1,13 @@
 package com.tmps.OpenClosedPrinciple;
 
-public class Sword {
-  private float damage;
+public class Sword extends Weapon{
 
-  public Sword(float damage){
-    this.damage = damage;
+  public Sword( int damage, int range) {
+    super( damage, range);
   }
 
-  public void Attack(){
-    System.out.println("Attack with damage " + damage);
+  @Override
+  public void attack(){
+    System.out.println("Attack sword with damage " + damage);
   }
 }

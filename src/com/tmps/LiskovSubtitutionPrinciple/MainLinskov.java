@@ -1,4 +1,4 @@
-package com.tmps.LinskovsSubtitutionPrinciple;
+package com.tmps.LiskovSubtitutionPrinciple;
 
 public class MainLinskov {
   public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class MainLinskov {
     startApp(mySqlDatabase);
   }
 
-  public static void startApp(Database database){
-    database.connect();
+  public static void startApp(Database db ){
+    db.connect();
   }
 }

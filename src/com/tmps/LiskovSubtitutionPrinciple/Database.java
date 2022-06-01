@@ -1,4 +1,4 @@
-package com.tmps.InterfaceSegregation;
+package com.tmps.LiskovSubtitutionPrinciple;
 
 public class Database {
   public void connect(){

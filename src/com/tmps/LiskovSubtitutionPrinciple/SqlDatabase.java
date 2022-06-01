@@ -1,4 +1,4 @@
-package com.tmps.LinskovsSubtitutionPrinciple;
+package com.tmps.LiskovSubtitutionPrinciple;
 
 public class SqlDatabase extends Database{
   public void joinTables(){

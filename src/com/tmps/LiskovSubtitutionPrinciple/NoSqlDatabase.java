@@ -1,4 +1,4 @@
-package com.tmps.LinskovsSubtitutionPrinciple;
+package com.tmps.LiskovSubtitutionPrinciple;
 
 public class NoSqlDatabase extends Database{
   public void createIndex(){
